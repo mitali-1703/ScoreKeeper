@@ -56,6 +56,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void reset_all(View v){
         displayForTeamA(0);
+        scoreTeamA = 0;
         displayForTeamB(0);
+        scoreTeamB = 0;
     }
 }
